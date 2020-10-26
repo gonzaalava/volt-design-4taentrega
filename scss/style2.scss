@@ -1,0 +1,101 @@
+@import "header";
+@import "footer";
+
+$color-darkgrey1: #52575d;
+$color-cream: #EDECD8; 
+$color-darkgrey2: #41444b
+$color-cream2: #f6f4e6;
+
+nav {
+	grid-area: nav;
+	background-color: #393b44;
+	justify-content: end;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+header {
+	grid-area: header;
+	background-color: #393b44;
+	height: auto;
+	width: auto;
+	align-items: center;
+	margin-bottom: 15px;
+	}
+
+.nav-link	{
+	background-color: #393b44;
+	color: #ffffff;
+	font-family: roboto, sans-serif;
+	font-style: medium 500;
+	font-size: 18px;
+}
+
+.nav-link:hover {
+	background-color: #fddb3a;
+	color: #393b44;
+}
+		
+.titulos_style {
+	grid-area: titulos1;
+	color: #52575d;
+	font-family: Futura;
+	font-style: bold;
+	font-size: 50px;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.parrafo_style {
+	grid-area: parrafo1;
+	color: #41444b;
+	font-family: 'Roboto', sans-serif;
+	font-style: medium 500;
+	padding: 10px;
+	height: auto;
+	font-size: 22px;
+	text-align: justify;
+	margin-right: 10px;
+}
+		
+.ultimosTrabajos {
+	grid-area: ultimosTrabajos;
+	background-color: #fddb3a;
+	height: auto;
+	color: #52575d;
+	font-family: Futura;
+	font-size: 30px;
+	font-style: bold;
+	padding: 20px;
+	margin: 0px;
+	width: auto;
+	justify-items: center;
+	align-items: center;
+}
+
+.btn-portfolio {
+	background-color: #fddb3a;
+}
+
+.card-img-top:hover {
+	transform: scale(2);
+}
+
+th strong {;
+	color: #fdcc43;
+	font-family: Futura;
+	font-style: bold;
+}
+
+td strong {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+}
+
+.liServicios {
+	list-style-type: square;
+}
+
+
+

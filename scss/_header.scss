@@ -1,0 +1,19 @@
+$color: #52575d;
+
+header {
+			background-color: #D6D4C7;
+			height: auto;
+			width: auto;
+			align-items: center;
+			margin-bottom: 15px;
+	.nav-link	{
+			color: $color;
+			font-family: roboto, sans-serif;
+			font-style: medium 500;
+			font-size: 18px;
+	}
+}
+.nav-link:hover {
+			background-color: $color;
+			color: #f6f4e6;
+		}
